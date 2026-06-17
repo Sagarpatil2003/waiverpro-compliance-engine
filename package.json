@@ -17,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/Sagarpatil2003/waiverpro-compliance-engine/issues"
   },
-  "homepage": "https://github.com/Sagarpatil2003/waiverpro-compliance-engine#readme"
+  "homepage": "https://github.com/Sagarpatil2003/waiverpro-compliance-engine#readme",
+  "dependencies": {
+    "@google/genai": "^2.8.0",
+    "dotenv": "^17.4.2",
+    "pdf-parse": "^2.4.5",
+    "pdf-to-text": "^0.0.7",
+    "playwright": "^1.61.0",
+    "winston": "^3.19.0"
+  }
 }

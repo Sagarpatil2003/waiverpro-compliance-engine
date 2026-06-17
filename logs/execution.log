@@ -1,0 +1,47 @@
+[2026-06-17 10:40:28] [INFO]: Starting ingestion of PDF: ./docs/waiverpro.pdf
+[2026-06-17 10:40:28] [ERROR]: Failed to execute PDF Parser phase: ENOENT: no such file or directory, open 'C:\Users\sarvadnya\Desktop\Projects\waiverpro-compliance-engine\docs\waiverpro.pdf'
+[2026-06-17 10:40:32] [INFO]: Launching automated headless browser via Playwright...
+[2026-06-17 10:51:52] [INFO]: Starting ingestion of PDF: ./docs/waiverpro.pdf
+[2026-06-17 10:51:52] [ERROR]: Failed to execute PDF Parser phase: pdf is not a function
+[2026-06-17 10:51:53] [INFO]: Launching automated headless browser via Playwright...
+[2026-06-17 10:51:56] [INFO]: Navigating to target web application login node...
+[2026-06-17 10:52:33] [ERROR]: Critical error during browser extraction phase: page.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('input[type="email"], #email')[22m
+
+    at runExtractor (C:\Users\sarvadnya\Desktop\Projects\waiverpro-compliance-engine\src\crawler\extractor.js:17:16)
+    at async run ([eval]:1:89)
+[2026-06-17 10:52:33] [INFO]: Browser context closed successfully.
+[2026-06-17 10:52:33] [INFO]: Loading structural matrices for cross-examination verification...
+[2026-06-17 10:52:33] [ERROR]: Fatal failure inside the Comparison Agent Loop: ENOENT: no such file or directory, open 'C:\Users\sarvadnya\Desktop\Projects\waiverpro-compliance-engine\data\rules.json'
+[2026-06-17 10:52:33] [ERROR]: Failed to construct production markdown presentation: Unexpected end of JSON input
+[2026-06-17 11:02:48] [INFO]: Starting ingestion of PDF: ./docs/waiverpro.pdf
+[2026-06-17 11:02:48] [ERROR]: Failed to execute PDF Parser phase: pdf is not a function
+[2026-06-17 11:02:49] [INFO]: Launching automated headless browser via Playwright...
+[2026-06-17 11:02:56] [INFO]: Navigating to target web application login node...
+[2026-06-17 11:03:02] [INFO]: Injecting authorization credentials...
+[2026-06-17 11:03:32] [ERROR]: Critical error during browser extraction phase: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('input[placeholder*="Email" i], input[placeholder*="email" i], input[type="email"]')[22m
+
+    at runExtractor (C:\Users\sarvadnya\Desktop\Projects\waiverpro-compliance-engine\src\crawler\extractor.js:23:113)
+    at async run ([eval]:1:89)
+[2026-06-17 11:03:33] [INFO]: Browser context closed successfully.
+[2026-06-17 11:03:33] [INFO]: Loading structural matrices for cross-examination verification...
+[2026-06-17 11:03:33] [ERROR]: Fatal failure inside the Comparison Agent Loop: ENOENT: no such file or directory, open 'C:\Users\sarvadnya\Desktop\Projects\waiverpro-compliance-engine\data\rules.json'
+[2026-06-17 11:03:33] [ERROR]: Failed to construct production markdown presentation: Unexpected end of JSON input
+[2026-06-17 11:05:02] [INFO]: Starting ingestion of PDF: ./docs/waiverpro.pdf
+[2026-06-17 11:05:02] [ERROR]: Failed to execute PDF Parser phase: pdf is not a function
+[2026-06-17 11:05:04] [INFO]: Launching automated headless browser via Playwright...
+[2026-06-17 11:05:06] [INFO]: Navigating to target web application login node...
+[2026-06-17 11:05:12] [INFO]: Injecting authorization credentials...
+[2026-06-17 11:05:22] [ERROR]: Critical error during browser extraction phase: locator.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('input[placeholder*="Email" i], input[placeholder*="email" i], input[type="email"]')[22m
+
+    at runExtractor (C:\Users\sarvadnya\Desktop\Projects\waiverpro-compliance-engine\src\crawler\extractor.js:23:113)
+    at async run ([eval]:1:89)
+[2026-06-17 11:05:23] [INFO]: Browser context closed successfully.
+[2026-06-17 11:05:23] [INFO]: Loading structural matrices for cross-examination verification...
+[2026-06-17 11:05:23] [ERROR]: Fatal failure inside the Comparison Agent Loop: ENOENT: no such file or directory, open 'C:\Users\sarvadnya\Desktop\Projects\waiverpro-compliance-engine\data\rules.json'
+[2026-06-17 11:05:23] [ERROR]: Failed to construct production markdown presentation: Unexpected end of JSON input
